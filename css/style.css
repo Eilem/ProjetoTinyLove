@@ -1,0 +1,24 @@
+/* imports */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* celular */
+
+
+
+/* tablet */
+@media screen and(min-widht:768px){
+    
+}
+
+/*  Descktop antigo */
+@media screen and(min-widht:992px){
+
+}
