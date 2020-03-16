@@ -2,54 +2,69 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* font awasome*/
-    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.centralizar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
-#botoes-app {
+header {
+    background-image: url("../componentes/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -150px;
+}
+
+
+header #logo {
+
+    /* display: flex;
+     diminuir  
+     font menor 
+     margin 
+
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+header #cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #be4f44;
+    opacity: 90%;
+}
+
+header #cabecalho h2{
+    width: 80%;
+    font-weight: 100;
+}
+
+header #botoes-app {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-}
-header {
-    background-image: url("../COMPONENTES/hero-background.jpg");
-    background-repeat: no-repeat;
-}
-.cabecalho-mobile {
-    background-color: #be4f44;
-    opacity: 75%;
-    
+    justify-content: space-between; 
+    width: 80%;
 }
 
-#logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+header #botoes-app a {
+    width: 45%;
 }
 
-/* celular */
-@media screen and(min-width: 320px) {
-
+header #botoes-app img {
+    width: 100%;
 }
+
+
+
 
 
 /* tablet */
