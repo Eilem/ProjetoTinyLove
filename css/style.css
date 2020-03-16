@@ -27,6 +27,7 @@ header #logo  {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    padding-bottom: 10px;
 }
 
 header #logo img {
@@ -43,9 +44,22 @@ header #cabecalho {
     opacity: 90%;
 }
 
+
+header #sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 header #cabecalho h2{
-    width: 80%;
-    font-weight: 100;
+    width: 90%;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0.90;
+    padding-bottom: 20px;
 }
 
 header #botoes-app {
@@ -53,10 +67,11 @@ header #botoes-app {
     flex-direction: row;
     justify-content: space-between; 
     width: 80%;
+    padding-bottom: 30px;
 }
 
 header #botoes-app a {
-    width: 45%;
+    width: 48%;
 }
 
 header #botoes-app img {
