@@ -14,7 +14,6 @@
 #section-title *{
     margin-top: 10px;
     padding: 10 10;
-    /* border:5px solid black; */
 }
 
 #section-title i{
@@ -25,18 +24,11 @@
     color: #ffffff;
     font-size: 1em;
     padding-top: 15px
-   
-}
-
-#section-title h1{
-    
-
 }
 
 #section-title h2{
     opacity: 0.3;
     font-weight: 300;
-
 }
 
 #section-title p{
@@ -54,6 +46,26 @@
     font-weight: 300;
     font-size: 24px;
 }
+
+#section-it-works{
+    background-color: #374148;
+    padding: 30px 10% 30px 10%;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-it-works *{
+    margin-top: 10px;
+    padding: 10 10;
+}
+
+#section-it-works i{
+    background-color: #be4f44;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px
+}
+
 
 
 /* tablet */
