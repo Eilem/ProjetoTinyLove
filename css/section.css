@@ -43,6 +43,18 @@
     font-size: 14px;
 }
 
+#section-red{
+    background-color: #be4f44;
+    padding: 30px 10% 30px 10%;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-red p{
+    font-weight: 300;
+    font-size: 24px;
+}
+
 
 /* tablet */
 @media screen and(min-width:768px){
