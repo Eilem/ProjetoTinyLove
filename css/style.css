@@ -48,11 +48,16 @@ header #cabecalho {
 header #sociais{
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: center; 
     width: 25%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+header #sociais i{
+    padding: 10px 10px 10px 10px;   
+}
+
 
 header #cabecalho h2{
     width: 90%;
@@ -88,7 +93,10 @@ footer{
 
 /* tablet */
 @media screen and(min-width:768px){
-    
+      header {
+        background-position: -200px ;  
+        background-size: 120%;    
+    }
 }
 
 /*  Descktop antigo */
