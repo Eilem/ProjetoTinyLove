@@ -50,7 +50,7 @@
 /* 1° section */
 
 #section-it-works{
-    background-color: #374148;
+    background-color: #393b47;
     padding: 30px 10% 0 10%;
     color: #ffffff;
     text-align: center;
@@ -69,13 +69,12 @@
     width: 40px;
     height: 40px;
     padding-top: 10px;
-    
-
 }
+
 /* 2° section */
 
 #section-heading{
-    background-color: #20272c;
+    background-color: #2b2e37;
     padding: 30px 10% 0px 10%;
     color: #ffffff;
     text-align: center;
@@ -91,43 +90,44 @@
     width: 40px;
     height: 40px;
     padding-top: 10px;
-    
-
 }
+
 
 /* 3° section */
 #section-3{
-    background-color: #374148;
+    background-color: #393b47;
     padding: 30px 10% 0px 10%;
     color: #ffffff;
     text-align: center;
-
-    
 }
 
-#ssection-3 *{
-    margin-top: 10px;
-    padding: 10 10;
+#section-3 p{
+    padding: 10px 0 10px 0 ;
+    text-align: justify;
+    font-size: 12px;
 }
 
 #section-3 i{
-    background-color: #be4f44;
+    color: #be4f44;
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    font-size: 30px;
+    padding: 0 0 0 0 ;
+}
+
+#section-3 ios-imagem{
+    margin-left: 20%;
 }
 
 /* Posição das imagens */
 .img-center{
-display: flex;
-flex-direction: column;
-align-items: center;
-
-margin-top: 4px;
-width: 80%;
-height: 30%;
-padding-left: 30%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4px;
+    width: 80%;
+    height: 30%;
+    padding-left: 30%;
 }
 
 
